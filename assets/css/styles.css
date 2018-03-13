@@ -27,6 +27,13 @@ header{
 
 h1{
     margin:0;
+    color: #FFF;
+    font-size: 200%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    margin-bottom: 20px;
 }
 
 .hero-text-box{
@@ -37,3 +44,46 @@ h1{
     transform: translate(-50% ,-50%);
 }
 
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+
+    
+}
+
+
+
+.btn-full:link,
+.btn-full:visited{
+    background-color: #e17055;
+    color : #FFF;
+    margin-right: 16px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #FFF;
+    color: #e17055;
+}
+
+.btn:hover,
+.btn:active{
+    background-color: #dc5838;
+}
+
+.btn-full:hover,
+.btn-full:active{
+    border:1px solid #e17055;
+
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #e17055;
+    color: #FFF;
+}
